@@ -16,6 +16,8 @@ const addNumber = document.querySelector("#add")
 const multiplyNumber = document.querySelector("#multiply")
 const divideNumber = document.querySelector("#divide");
 const substrationNumber = document.querySelector("#substration");
+const dotNumber = document.querySelector("#dot");
+const rootQuad = document.querySelector("#root");
 let add = false;
 let multiply = false;
 let divide = false;
@@ -71,6 +73,12 @@ function showNumber() {
         }
         number9.onclick = function() {
             valueInput.value += "9"
+        }
+        dotNumber.onclick = function(){
+            valueInput.value += "."
+        }
+        rootQuad.onclick = function (){
+            valueInput.value = valueInput.value ** (1/2)
         }
         addNumber.onclick = function() {
             add = true
