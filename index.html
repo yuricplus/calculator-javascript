@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Calculator with Javascript</title>
+</head>
+
+<body>
+    <section class="text-center mt-5">
+        <h1>Calculator</h1>
+        <div class="_calculator mt-5 pt-5 pb-5">
+            <div class="_line-calculator">
+
+                <div class="pt-4 container-icon text-center">
+                    <div class="_icon-side">
+                        <div class="__line-icon"></div>
+                        <div class="__line-icon-midle"></div>
+                        <div class="__line-icon-last"></div>
+                    </div>
+                </div>
+                <div class="calculator-panel">
+                    <input type="text" class="_input-calculator" readonly="readonly" id="valueInput">
+                </div>
+            </div>
+            <div class="content-btn text-left ml-5 mt-4">
+                <button class="_btn-on-off _btn-functions" id="on-off">ON/C</button>
+                <button class="_btn-functions" id="ce">CE</button>
+                <button class="_btn-functions" id="mrc">MRC</button>
+                <button class="_btn-functions" id="m-">M-</button>
+                <button class="_btn-functions" id="m+">M+</button>
+            </div>
+            <div class="content-number-btns text-left ml-5">
+                <button class="_btn-numbers" id="seven">7</button>
+                <button class="_btn-numbers" id="eight">8</button>
+                <button class="_btn-numbers" id="nine">9</button>
+                <button class="_btn-numbers" id="porcental">%</button>
+                <button class="_btn-numbers" id="root">√</button>
+                <button class="_btn-numbers" id="four">4</button>
+                <button class="_btn-numbers" id="five">5</button>
+                <button class="_btn-numbers" id="six">6</button>
+                <button class="_btn-numbers" id="multiply">x</button>
+                <button class="_btn-numbers" id="divide">/</button>
+                <button class="_btn-numbers" id="one">1</button>
+                <button class="_btn-numbers" id="two">2</button>
+                <button class="_btn-numbers" id="tree">3</button>
+                <button class="_btn-numbers" style="visibility: hidden;"></button>
+                <button class="_btn-numbers" id="substration">-</button>
+                <button class="_btn-numbers" id="zero">0</button>
+                <button class="_btn-numbers" id="dot">.</button>
+                <button class="_btn-numbers" id="nothing">+/-</button>
+                <button class="_btn-numbers" id="add" style="
+                height: 105px;
+                margin-top: -55px;
+                padding-bottom: 0px;
+                position: relative;
+                bottom: 29px;
+                ">+</button>
+                <button class="_btn-numbers" id="results">=</button>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <script type="text/javascript" src="index.js"></script>
+</footer>
+
+</html>
